@@ -18,7 +18,7 @@ import matplotlib.tri as tri
 import os
 from sklearn.cluster import MeanShift
 
-lec_df = pd.read_csv("/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/shiTS/oldtrack/shiTS_minicicmscarlet_008.csv", sep=',', index_col=None)
+lec_df = pd.read_csv("/Users/XXX", sep=',', index_col=None)
 
 
 # Simulated Data (Replace with your actual data)
@@ -350,14 +350,14 @@ plt.setp(legend.get_texts(), color='black')  # Set legend text color to black
 
 # Save the dataframes
 ######DONT FORGET TO CHANGE TO THE CORRECT FILES OR SUFFER THE OVERWRITING######
-modified_df.to_csv('/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/shi/shi008/modified_df_shi008_early006.csv', index=False)
+modified_df.to_csv('/Users/XXXX', index=False)
 #triangulation_df.to_csv('/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/control/triangulation_df_ctrl_003_late001.csv', index=False)
-unique_pairs_df.to_csv('/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/shi/shi008/unique_pairs_df_shi008_early006.csv', index=False)
+unique_pairs_df.to_csv('/Users/XXXX', index=False)
 
 # Save the animation as a video file
 #ani.save('/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/control/animation_ctrl_003_late001.mp4', writer='ffmpeg')
-ani.save('/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/shi/shi008/animation_shi008_early006_frame_{:04d}.png', writer='pillow', dpi=200)
-ani.save('/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/shi/shi008/animation_shi008_early006.gif', writer='pillow', fps=5)
+ani.save('/Users/XXXX/filename{:04d}.png', writer='pillow', dpi=200)
+ani.save('/Userss/XXXX/filename.gif', writer='pillow', fps=5)
 
 # Display a message indicating successful saving
 print("Dataframes and animation saved successfully.")
