@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Directory containing the files
-directory = '/Users/kevin-hgd/Documents/SP5/pnrGAL4 Crosses/minicic-SCAT3/Control/cluster_poisson/shi/shi002/'
+directory = '/Users/XXXX/'
 
 # Detect all files containing "unique_pairs_df" in their filenames
 file_list = [file for file in os.listdir(directory) if "unique_pairs_df" in file]
