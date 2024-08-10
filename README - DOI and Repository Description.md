@@ -1,6 +1,7 @@
-This repository contains the Supporting Information for the article "Reduction of endocytosis and EGFR signaling is associated with the switch from isolated to clustered apoptosis during epithelial tissue remodeling in Drosophila" by Yuswan, K., Sun, X., Kuranaga, E., and Umetsu, D. in PLOS Biology
-
+[![DOI](https://zenodo.org/badge/775450930.svg)](https://zenodo.org/doi/10.5281/zenodo.13290046)
 DOI generated via Zenodo: DOI 10.5281/zenodo.13290047
+
+This repository contains the Supporting Information for the article "Reduction of endocytosis and EGFR signaling is associated with the switch from isolated to clustered apoptosis during epithelial tissue remodeling in Drosophila" by Yuswan, K., Sun, X., Kuranaga, E., and Umetsu, D. in PLOS Biology
 
 The files include the Excel files of all the data points used to generate the figures in the article, and the python files for detailed analyses.
 
